@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #0078d7;
+      color: #fff;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .project {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      max-width: 300px;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 20px;
+    }
+    .card-content h3 {
+      margin: 0 0 10px;
+    }
+    .card-content p {
+      font-size: 0.9rem;
+      color: #666;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0078d7;
+      color: #fff;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Portfolio</h1>
+    <p>Welcome! I am a developer specializing in building efficient applications.</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="PayFrugal">
+        <div class="card-content">
+          <h3>PayFrugal</h3>
+          <p>An accounts payable system for organizations to manage vendor payments and dues efficiently.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="VIMS">
+        <div class="card-content">
+          <h3>VIMS</h3>
+          <p>An accounts receivable system for managing customer payments seamlessly.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Wikipedia Clone">
+        <div class="card-content">
+          <h3>Wikipedia Clone</h3>
+          <p>A platform to store and retrieve articles, mimicking the Wikipedia experience.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="CarKey Rental Services">
+        <div class="card-content">
+          <h3>CarKey Rental Services</h3>
+          <p>A user-friendly web app for booking car rentals, designed with a focus on UX.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Hello! I am a developer with 6 months of experience, currently working at Voicesnap Pvt Ltd. I specialize in .NET Core, C#, and front-end technologies like HTML, CSS, and JavaScript. I enjoy building systems like PayFrugal and VIMS and exploring creative designs for projects like CarKey Rental Services.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>If you're interested in collaborating or have any questions, feel free to reach out!</p>
+    <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+  </section>
+
+  <footer>
+    <p>Made with ♥ by Your Name | <a href="#top">Back to top</a></p>
+  </footer>
+</body>
+</html>

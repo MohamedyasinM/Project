@@ -1,1 +1,1 @@
-# Bscic Frontend Projects
+# Basic Frontend Projects
